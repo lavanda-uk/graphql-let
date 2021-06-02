@@ -91,7 +91,6 @@
     "lint": "eslint --ext .ts,.tsx --ignore-path .gitignore .",
     "fix": "yarn lint --fix",
     "test": "tsc --noEmit && jest",
-    "build": "rimraf dist && tsc --declaration",
     "prepare": "yarn lint && yarn test && yarn build"
   },
   "husky": {
